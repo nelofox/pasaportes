@@ -7,8 +7,11 @@
     <meta charset="utf-8">
     <title>Index Page</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
   </head>
+
   <body>
+   
     <div class="container">
     <br />
     @if (\Session::has('success'))
@@ -16,7 +19,7 @@
         <p>{{ \Session::get('success') }}</p>
       </div><br />
      @endif
-
+     <h1>LISTA DE PASAPORTE</h1>
     <table class="table table-striped">
     <thead>
       <tr>
