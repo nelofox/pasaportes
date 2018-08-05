@@ -13,6 +13,7 @@
   <td><strong>oficina</strong></td>
   
 </tr>
+
 <tr>
  <td><strong>{{$pasaporte->id}}</strong></td>
   <td><strong>{{$pasaporte->name}}</strong></td>
